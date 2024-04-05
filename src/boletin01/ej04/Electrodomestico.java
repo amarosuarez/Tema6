@@ -190,6 +190,12 @@ public class Electrodomestico {
 		this.precioBase += precioFinal;
 	}
 	
+	/**
+	 * Método que devuelve la información del electrodoméstico
+	 * como cadena
+	 * 
+	 * @return Devuelve la información del electrodomestico
+	 */
 	@Override
 	public String toString() {
 		// Variable donde se almacenará la información
