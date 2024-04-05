@@ -36,13 +36,11 @@ public class Ejecutable {
 		Television tv4 = new Television(500, "rojo", 'D', 30, 50, false);
 		arrayElec[9] = tv4;
 		
-		
-		for (int i = 0; i < arrayElec.length; i++) {
-			arrayElec[i].precioFinal();
-			System.out.println(i + " Precio: " + arrayElec[i].getPrecioBase() + " €");
-		}
-		
 		for (Electrodomestico ed : arrayElec) {
+			ed.precioFinal();
+			
+			System.out.println("Precio: " + ed.getPrecioBase() + " €");
+			
 			if (ed instanceof Lavadora) {
 				lavadoras += ed.getPrecioBase();
 			}
