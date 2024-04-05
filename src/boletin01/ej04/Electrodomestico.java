@@ -7,10 +7,17 @@ package boletin01.ej04;
  */
 public class Electrodomestico {
 
+	/**
+	 * Atributo enum que contiene las categoría del
+	 * consumo energético
+	 */
 	enum ConsumoEnergetico {
 		A, B, C, D, E, F
 	};
 
+	/**
+	 * Atributo enum que contiene los colores disponibles
+	 */
 	enum Colores {
 		BLANCO, NEGRO, ROJO, AZUL, GRIS
 	}

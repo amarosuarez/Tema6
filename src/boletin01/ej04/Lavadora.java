@@ -11,7 +11,7 @@ public class Lavadora extends Electrodomestico {
 	/**
 	 * Atributo que almacena la carga
 	 */
-	double carga = 5;
+	private double carga = 5;
 
 	/**
 	 * Constructor vacío
