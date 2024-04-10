@@ -97,6 +97,11 @@ public class Rectangulo extends Poligono {
 		return area;
 	}
 	
+	/**
+	 * Método que devuelve la información del rectángulo
+	 * 
+	 * @return Devuelve la información del rectángulo
+	 */
 	public String toString() {
 		// Variable donde se almacena la información
 		String info = "";
