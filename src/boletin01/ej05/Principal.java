@@ -39,7 +39,7 @@ public class Principal {
 		sc.close();
 	}
 	
-	static void menu() {
+	static private void menu() {
 		// Mostramos el menú
 		System.out.println("Menú");
 		System.out.println("1. Introducir triángulo.");
@@ -47,7 +47,7 @@ public class Principal {
 		System.out.println("3. Mostrar contenido del array.");
 	}
 	
-	static void introducirTriangulo() {
+	static private void introducirTriangulo() {
 		// Variable donde se almacena el lado 1
 		int lado1;
 		
@@ -86,7 +86,7 @@ public class Principal {
 		}
 	}
 
-	static void introducirRectangulo() {
+	static private void introducirRectangulo() {
 		// Variable donde se almacena el alto
 		int alto;
 		

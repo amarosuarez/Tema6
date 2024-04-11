@@ -10,13 +10,12 @@ public abstract class Poligono {
 	/**
 	 * Atributo que almacena el número de lados
 	 */
-	private int numeroLados;
+	protected int numeroLados;
 
 	/**
 	 * Constructor vacío
 	 */
-	public Poligono() {
-	}
+	public Poligono() {}
 
 	/**
 	 * Constructor con el parámetro número de lados
@@ -46,7 +45,7 @@ public abstract class Poligono {
 	 */
 	public void setNumeroLados(int numeroLados) {
 		// Comprobamos que los números de lados sean mayor que 2
-		if (numeroLados > 2) {
+		if (numeroLados >= 1) {
 			this.numeroLados = numeroLados;
 		}
 	}

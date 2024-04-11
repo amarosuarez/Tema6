@@ -16,7 +16,7 @@ public class Rectangulo extends Poligono {
 	 * Constructor vacío
 	 */
 	public Rectangulo() {
-		super();
+		super(2);
 	}
 
 	/**
@@ -26,7 +26,7 @@ public class Rectangulo extends Poligono {
 	 * @param alto  Alto del rectangulo
 	 */
 	public Rectangulo(double ancho, double alto) {
-		super();
+		super(2);
 
 		// Comprobamos que el ancho sea mayor que 0
 		if (ancho > 0) {

@@ -22,7 +22,7 @@ public class Triangulo extends Poligono {
 	 * Constructor vacío
 	 */
 	public Triangulo() {
-		super();
+		super(3);
 	}
 	
 	/**
@@ -33,6 +33,8 @@ public class Triangulo extends Poligono {
 	 * @param lado3 Lado 3 del triángulo
 	 */
 	public Triangulo(double lado1, double lado2, double lado3) {
+		super(3);
+		
 		if (lado1 > 0) {
 			this.lado1 = lado1;
 		}
