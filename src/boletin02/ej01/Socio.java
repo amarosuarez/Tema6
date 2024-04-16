@@ -1,5 +1,10 @@
 package boletin02.ej01;
 
+/**
+ * Clase que contiene los atributos y métodos de un socio
+ * 
+ * @author Amaro
+ */
 public class Socio implements Comparable<Socio> {
 
 	/**
@@ -10,7 +15,7 @@ public class Socio implements Comparable<Socio> {
 	/**
 	 * Atributo que almacena el nombre del socio
 	 */
-	private String nombre;
+	private String nombre = "";
 
 	/**
 	 * Atributo que almacena la edad del socio
