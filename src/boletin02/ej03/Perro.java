@@ -34,13 +34,18 @@ public class Perro extends AnimalDomestico {
 	 */
 	@Override
 	public boolean hacerCaso() {
+		// Variable que almacena si hace caso o no
 		boolean haceCaso = false;
+		
+		// Variable que almacena la probabilidad de hacer caso
 		double prob = Math.random();
 		
-		if (prob > 0.1) {
+		// Comprobamos que sea mayor o igual que 0.10
+		if (prob >= 0.1) {
 			haceCaso = true;
 		}
 		
+		// Devuelve si hace caso
 		return haceCaso;
 	}
 	
