@@ -1,0 +1,31 @@
+Vehiculo 
+	# marca: String
+	# modelo: String
+	# color: String
+	# matricula: String
+	# motor: boolean
+	# marcha: int
+	# velocidad: int
+	--------------------
+	+ parar(): void
+	+ arrancar(): void
+	+ acelerar(double velocidad): void
+	+ frenar(): void
+	- subirMarcha(): void
+	+ bajarMarcha(): void
+	+ Vehiculo(marca, modelo, color, matricula)
+	
+Turismo extends Vehiculo
+	enum Tipo {PARTICULAR, PROFESIONAL}
+	- numPlazas: int
+	- tipoUso: Enum
+
+Camion extends Vehiculo
+	- pesoMaximo: double
+	- mercanciaPeligrosa: boolean
+	
+Motocicleta extends Vehiculo
+	- cilindrada: int
+	-----------------
+	+ carnet(): boolean
+	
