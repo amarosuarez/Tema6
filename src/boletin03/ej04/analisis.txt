@@ -16,7 +16,7 @@ Contacto
 	+ getTelefono(): String
 	+ setNombre(nombre): void
 	+ setTelefono(telefono): void
-	+ equals(): boolean
+	+ equals(contacto): boolean
 
 Personas extends Contacto
 	- nombre: String
@@ -29,7 +29,7 @@ Personas extends Contacto
 	+ getCumpleanyos(): String
 	+ setNombre(nombre): void
 	+ setTelefono(telefono): void
-	+ equals(): boolean
+	+ equals(persona): boolean
 
 Empresa extends Contacto
 	- nombre: String
@@ -43,4 +43,4 @@ Empresa extends Contacto
 	+ setNombre(nombre): void
 	+ setTelefono(telefono): void
 	+ setWeb(web): void
-	+ equals(): boolean
+	+ equals(persona): boolean
