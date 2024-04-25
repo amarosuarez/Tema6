@@ -1,11 +1,11 @@
 CuentaBancaria
-	- numeroCuenta: int
+	- numeroCuenta: String
 	- saldo: double
 	- titulares: array[3]
 	-----------------------
 	+ CuentaBancaria(numeroCuenta, saldo, titulares)
 	+ getNumeroCuenta(): int
-	+ getSaldo(): int
+	+ getSaldo(): double
 	+ getTitulares(): array
 	+ setSaldo(saldo: double): void
 	+ setTitulares(): void
@@ -28,6 +28,7 @@ Titular
 	+ setNombre(nombre): void
 	+ setApellidos(apellidos): void
 	+ setTelefono(telefono): void
+	+ equals(Object o): boolean
 	
 CuentaAhorro extends CuentaBancaria
 	- cuota: double
