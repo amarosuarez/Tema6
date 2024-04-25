@@ -12,7 +12,7 @@ Vehiculo
 	+ acelerar(double velocidad): void
 	+ frenar(): void
 	- subirMarcha(): void
-	+ bajarMarcha(): void
+	- bajarMarcha(): void
 	+ Vehiculo(marca, modelo, color, matricula)
 	+ setMarcha(int marcha)
 	+ setMotor(boolean motor)
@@ -21,13 +21,17 @@ Turismo extends Vehiculo
 	enum Tipo {PARTICULAR, PROFESIONAL}
 	- numPlazas: int
 	- tipoUso: Enum
+	-------------------
+	+ Turismo(marca, modelo, color, matricula, numPlazas, tipoUso)
 
 Camion extends Vehiculo
 	- pesoMaximo: double
 	- mercanciaPeligrosa: boolean
+	-------------------------------
+	+ Camion(marca, modelo, color, matricula, pesoMaximo, mercanciaPeligrosa)
 	
 Motocicleta extends Vehiculo
 	- cilindrada: int
-	-----------------
 	+ carnet(): boolean
-	
+	----------------------
+	+ Motocicleta(marca, modelo, color, matricula, cilindrada, carnet)
